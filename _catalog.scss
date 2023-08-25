@@ -1,0 +1,54 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-head {
+    display: flex;
+    padding: 0 15% 0 14.37%;
+    background-color: #F8F3F4;
+    height: 148px;
+    align-items: center;
+}
+
+.top-head__heading {
+    color: $emphasizeColorWeaker;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.breadcrumbs {
+    margin-left: auto;
+}
+
+.breadcrumbs__lunk {
+    color: #636363;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.breadcrumbs__lunk_site {
+    color: $emphasizeColorWeaker;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.next_clothes {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.15);
+}

@@ -28,7 +28,7 @@
         }
     }
 
-    nav {
+    .nav {
         display: grid;
         grid-template-columns: 232px 232px 232px;
         grid-template-rows: 167px 116px;
@@ -180,7 +180,7 @@
         }
     }
 
-    nav,
+    .nav,
     .products {
         display: flex;
         flex-direction: column;
@@ -188,7 +188,7 @@
         padding-right: calc(50% - 152px);
     }
 
-    nav {
+    .nav {
         margin-bottom: 64px;
     }
 
@@ -202,7 +202,7 @@
         height: 111px;
     }
 
-    nav {
+    .nav {
         .item .nav_string_for_big {
             position: absolute;
             margin: 0 auto;

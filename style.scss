@@ -36,6 +36,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -141,7 +145,7 @@ p {
     }
 }
 
-nav {
+.nav {
     display: grid;
     grid-template-columns: 359px 359px 359px;
     grid-template-rows: 260px 180px;
@@ -537,3 +541,5 @@ p {
 }
 
 @import 'media';
+
+@import 'catalog';
