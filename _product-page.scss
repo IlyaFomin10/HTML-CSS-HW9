@@ -1,0 +1,148 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-head {
+    display: flex;
+    padding: 0 15% 0 14.37%;
+    background-color: #F8F3F4;
+    height: 148px;
+    align-items: center;
+}
+
+.top-head__heading {
+    color: $emphasizeColorWeaker;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.breadcrumbs {
+    margin-left: auto;
+}
+
+.breadcrumbs__lunk {
+    color: #636363;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.breadcrumbs__lunk_site {
+    color: $emphasizeColorWeaker;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    position: relative;
+    height: 777px;
+    margin-bottom: 665px;
+}
+
+.next_clothes {
+    width: 47px;
+    height: 47px;
+    background-color: rgba(42, 42, 42, 0.15);
+}
+
+.product__about {
+    position: absolute;
+    top: 935px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 1;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1141px;
+    height: 601px;
+}
+
+.gender {
+    color: $emphasizeColorWeaker;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 64.5px;
+}
+
+.rectangle-mini {
+    width: 63px;
+    height: 3px;
+    background-color: $emphasizeColorWeaker;
+    margin-top: 12px;
+}
+
+.product__name {
+    color: #4D4D4D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 12px;
+}
+
+.product__description {
+    padding-top: 48.5px;
+    width: 565px;
+    text-align: center;
+}
+
+.product__price {
+    color: #EF5B70;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 32px;
+}
+
+.line-gray {
+    width: 641px;
+    height: 1px;
+    background-color: #EAEAEA;
+    margin-top: 65px;
+}
+
+.product__choose {
+    display: flex;
+    padding-top: 65px;
+    gap: 23px;
+    padding-bottom: 48.4px;
+
+    &__item {
+        &__text {
+            color: #6F6E6E;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            gap: none;
+            padding-right: 9px;
+        }
+    }
+}
+
+.products-product-page {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 581px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 128px;
+}

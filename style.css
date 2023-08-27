@@ -207,14 +207,15 @@ p {
   justify-content: center;
   margin-bottom: 48px;
 }
-.products .element {
+
+.element {
   position: relative;
 }
-.products .element-top {
+.element-top {
   display: flex;
   justify-content: center;
 }
-.products .element-top .icon-card {
+.element-top .icon-card {
   display: none;
   position: absolute;
   top: 0%;
@@ -224,34 +225,34 @@ p {
   background: hsla(0, 2%, 22%, 0.86);
   opacity: 0.5;
 }
-.products .element-top:hover .icon-card {
+.element-top:hover .icon-card {
   display: block;
 }
-.products .element .icon-card {
+.element .icon-card {
   justify-content: center;
   align-items: center;
 }
-.products .element .icon-card-item {
+.element .icon-card-item {
   display: flex;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-.products .element .fill-board-card-full {
+.element .fill-board-card-full {
   position: relative;
 }
-.products .element .fill-board-card {
+.element .fill-board-card {
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
 }
-.products .element .fill-board-card {
+.element .fill-board-card {
   padding-left: 13.54px;
   padding-top: 11.29px;
 }
-.products .element .add-cart {
+.element .add-cart {
   color: #FFF;
   font-size: 14px;
   font-style: normal;
@@ -260,10 +261,10 @@ p {
   padding-left: 11px;
   padding-top: 4px;
 }
-.products .element-bottom {
+.element-bottom {
   padding: 24px 16px;
 }
-.products .element .product-title {
+.element .product-title {
   color: #000;
   font-size: 13px;
   font-style: normal;
@@ -271,7 +272,7 @@ p {
   line-height: normal;
   padding-bottom: 16px;
 }
-.products .element .price {
+.element .price {
   color: #F16D7F;
   font-size: 16px;
   font-style: normal;
@@ -286,8 +287,9 @@ p {
   margin-bottom: 60px;
 }
 .product_more .Browse {
+  background-color: #FFF;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   color: #F26376;
   font-size: 16px;
@@ -298,6 +300,7 @@ p {
   height: 48px;
   border-width: 1px;
   border-color: hsl(0, 100%, 71%);
+  gap: 23px;
 }
 
 .advantages {
@@ -334,6 +337,7 @@ p {
   display: flex;
   padding-top: 97px;
   padding-bottom: 156px;
+  background-color: hsla(0, 0%, 96%, 0.7);
 }
 .communication-left, .communication-right {
   width: 50%;
@@ -536,7 +540,7 @@ p {
     flex-wrap: wrap;
     gap: 16px;
   }
-  .products .element {
+  .element {
     width: 360px;
   }
   .advantages {
@@ -636,10 +640,10 @@ p {
     text-align: center;
     width: 60%;
   }
-  .products .element-top .icon-card {
+  .element-top .icon-card {
     height: 354.66px;
   }
-  .products .element-2 {
+  .element-2 {
     height: 354.66px;
   }
   .advantages {
@@ -728,10 +732,101 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: #F7F7F7;
+  position: relative;
+  height: 777px;
+  margin-bottom: 665px;
 }
 
 .next_clothes {
   width: 47px;
   height: 47px;
   background-color: rgba(42, 42, 42, 0.15);
+}
+
+.product__about {
+  position: absolute;
+  top: 935px;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 1;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1141px;
+  height: 601px;
+}
+
+.gender {
+  color: #F16D7F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 64.5px;
+}
+
+.rectangle-mini {
+  width: 63px;
+  height: 3px;
+  background-color: #F16D7F;
+  margin-top: 12px;
+}
+
+.product__name {
+  color: #4D4D4D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 12px;
+}
+
+.product__description {
+  padding-top: 48.5px;
+  width: 565px;
+  text-align: center;
+}
+
+.product__price {
+  color: #EF5B70;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 32px;
+}
+
+.line-gray {
+  width: 641px;
+  height: 1px;
+  background-color: #EAEAEA;
+  margin-top: 65px;
+}
+
+.product__choose {
+  display: flex;
+  padding-top: 65px;
+  gap: 23px;
+  padding-bottom: 48.4px;
+}
+.product__choose__item__text {
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: none;
+  padding-right: 9px;
+}
+
+.products-product-page {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: 581px;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 128px;
 }/*# sourceMappingURL=style.css.map */

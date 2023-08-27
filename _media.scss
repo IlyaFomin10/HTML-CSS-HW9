@@ -82,10 +82,10 @@
         padding-right: calc(50% - 384px);
         flex-wrap: wrap;
         gap: 16px;
+    }
 
-        .element {
-            width: 360px;
-        }
+    .element {
+        width: 360px;
     }
 
     .advantages {
@@ -214,15 +214,13 @@
         }
     }
 
-    .products {
-        .element {
-            &-top .icon-card {
-                height: 354.66px;
-            }
+    .element {
+        &-top .icon-card {
+            height: 354.66px;
+        }
 
-            &-2 {
-                height: 354.66px;
-            }
+        &-2 {
+            height: 354.66px;
         }
     }
 
